@@ -1,0 +1,132 @@
+body {
+    margin: 0;
+    padding: 0;
+    font-family: Arial, sans-serif;
+    background-size: cover;
+    background-position: center;
+    color: #fff; 
+    background-image: url('Background.jpg');
+}
+
+header {
+    text-align: center;
+    padding: 20px;
+}
+
+.centered {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center; 
+}
+
+.profile img {
+    max-width: 500px;
+    max-height: 500px;
+}
+
+.info {
+    margin-left: 20px;
+}
+
+.info h2 {
+    font-size: 24px;
+    font-weight: bold;
+}
+
+.info ul {
+    list-style-type: none;
+    padding: 0;
+}
+
+.info ul li {
+    margin-bottom: 10px;
+}
+.zebra-table{
+    border: solid 0px #DDEEEE;
+    border-spacing: 0;
+    font: normal 16px Arial, sans-serif;
+	margin-left: auto;
+    margin-right: auto;
+	margin-top: 1px;
+	width: 94%;
+}
+.zebra-table tr:nth-child(odd) { 
+    background: #a15efa8e;
+  }
+.zebra-table tr:nth-child(even){
+		background: #a2c9ff;
+}
+.zebra-table thead th {
+    background-color: #DDEFEF;
+    border: solid 1px #DDEEEE;
+    color: #336b3c;
+    padding: 10px;
+    text-align: left;
+    text-shadow: 1px 1px 1px #fff;
+        
+}
+.zebra-table tbody td {
+    border: solid 1px #DDEEEE;
+    color: white;
+    padding: 10px;
+    text-shadow: 1px 1px 1px #fff;
+}
+
+caption {
+	font: 2.8rem television;
+    padding: 10px;
+    caption-side: bottom;
+	font-weight: bold;
+	text-align: center;
+
+}
+
+.skeletor {
+    font: 1.8rem rapscallion;
+    letter-spacing: 3px;
+   
+}
+
+.quote {
+    border: 1px solid #ddd;
+    padding: 20px;
+    margin-left: auto;
+    margin-right: auto;
+    width: 93%;
+}
+
+.quote p {
+    margin: 0;
+}
+
+.tables {
+    display: flex;
+    justify-content: space-around;
+    margin: 20px;
+}
+
+.education-table {
+    width: 45%; 
+    margin: 10px;
+}
+
+.education-table,
+.education-table td {
+    border: 1px solid white;
+    padding: 8px;
+    background-color: #0000005d;
+    vertical-align: top;
+}
+
+a {
+    color: lightblue;
+}
+
+.quote-section h2 { 
+    font-weight: bold;
+    text-align: center; 
+}
+
+
+
